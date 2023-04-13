@@ -461,7 +461,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Second Order Centrality')
 plt.show()
 ```
-![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/secondorder.jpg)
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/secondorder.ppg)
 ## Results
 The node with the highest second-order centrality is ADCY1 with a value of 73.88, which means that it can reach a lot of nodes indirectly through its neighbors. The next highest values are for HTR7 and GABBR2, which also have high values, indicating their indirect influence on the network. On the other hand, HTR1A and HTR2A have low second-order centrality values, indicating their limited indirect influence on the network.
 # Voterank 
