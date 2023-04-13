@@ -58,6 +58,7 @@ df = pd.DataFrame(data[1:-1], columns = data[0]) # Send a GET request to the API
 ```python
 df.head(n=10)
 ```
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/Dataframe.png)
 
 ```python
 # dataframe with the preferred names of the two proteins and the score of the interaction
@@ -114,7 +115,7 @@ nx.draw_networkx(G, node_color='blue', edge_color='grey')
 plt.axis('off')
 plt.show()
 ```
-![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/network.jpg))
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/network.jpg)
 
 # Finding Centrality Measures for the Protein-Protein Network
 Finding centrality measures for a protein-protein interaction (PPI) network dataset can give various insights on the protein-protein network.
