@@ -703,6 +703,23 @@ The nx.voterank(G) function returns a list of nodes ranked by their influence in
 
 ```python
 nx.voterank(G)
+
+['HTR1A',
+ 'SLC6A4',
+ 'HTR2A',
+ 'TPH1',
+ 'GNAI3',
+ 'COMT',
+ 'NPY',
+ 'GRM2',
+ 'MAOA',
+ 'HTR1B',
+ 'GRM3',
+ 'SLC18A2',
+ 'HTR2C',
+ 'TPH2',
+ 'GABBR1',
+ 'POMC']
 ```
 
 ## Results
