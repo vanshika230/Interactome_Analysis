@@ -67,6 +67,18 @@ interactions = df[['preferredName_A', 'preferredName_B', 'score']]
 ```python
 interactions[:10] 
 ```
+| preferredName_A | preferredName_B | score  |
+|-----------------|-----------------|--------|
+| TPH1            | GRM2            | 0.411  |
+| TPH1            | GRM2            | 0.411  |
+| TPH1            | POMC            | 0.439  |
+| TPH1            | POMC            | 0.439  |
+| TPH1            | NPY             | 0.458  |
+| TPH1            | NPY             | 0.458  |
+| TPH1            | COMT            | 0.684  |
+| TPH1            | COMT            | 0.684  |
+| TPH1            | HTR1B           | 0.716  |
+| TPH1            | HTR1B           | 0.716  |
 
 # Construction of Graph using NetworkX
 Now we will construct a protein interaction graph using the NetworkX library.We create a new empty graph G is created using the NetworkX Graph class, with a name attribute set to 'Protein Interaction Graph'.
