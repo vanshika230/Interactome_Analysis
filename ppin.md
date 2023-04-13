@@ -102,6 +102,7 @@ nx.draw_networkx(G, node_color='blue', edge_color='grey')
 plt.axis('off')
 plt.show()
 ```
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/network.jpg))
 
 # Finding Centrality Measures for the Protein-Protein Network
 Finding centrality measures for a protein-protein interaction (PPI) network dataset can give various insights on the protein-protein network.
@@ -144,6 +145,7 @@ plt.title('Protein Interaction Graph with Degree Centrality')
 plt.show()
 
 ```
+![DegreeCentrality](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/DegreeCentrality.jpg))
 
 ## Results
 From the above calculations we can infer that HTR1A, HTR2A, and SLC6A4 have the highest degree centrality, indicating that they are highly connected to other proteins in the network and are likely to be important hubs in the network, and their disruption may have significant effects on the overall network structure and function.'HTR7','TPH2','ADCY1' have the lowest degree centrality indicating that they aren't well connected to the network. 
@@ -175,6 +177,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Eigenvector Centrality')
 plt.show()
 ```
+![EigenVector](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/EigenVector.jpg))
 
 ## Results
 The results suggest that HTR1A, SLC6A4, and COMT are the most influential nodes in the network, as they have the highest eigenvector centrality scores. This indicates that they are connected to other highly connected nodes in the network and may play important roles in regulating the interactions among other proteins in the network.These proteins may be good candidates for further investigation as potential targets for drug development or as biomarkers for certain diseases. On the other hand, ADCY1 has the lowest eigenvector centrality score, indicating that it may be less influential in the network.
@@ -205,7 +208,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Closeness Centrality')
 plt.show()
 ```
-
+![Closeness](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/Closeness.jpg))
 ## Results
 The nodes with the highest closeness centrality values are HTR1A with a value of 0.8636, followed by TPH1, COMT, and HTR2A with values of 0.76. These nodes are, therefore, the most central nodes in the graph according to this metric.
 
@@ -235,7 +238,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Information Centrality')
 plt.show()
 ```
-
+![InformationCentrality](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/InformationCentrality.jpg))
 ## Results
 TPH1, COMT, and HTR1A have relatively high information centrality values, suggesting that they are important in the flow of information in the PPIN. On the other hand, TPH2, ADCY1,GABBR2 has a low information centrality value, indicating that it may have less influence in the flow of information in the network.
 # Betweenness Centrality 
@@ -263,7 +266,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Betweenness Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/betweenness.jpg))
 ## Result
 In the given result, some nodes have relatively high betweenness centrality, such as 'HTR1A', 'HTR1B', 'GRM2', 'GNAI3', and 'HTR2A', which suggests that these nodes are important for maintaining the connectivity of the network. On the other hand, some nodes have low betweenness centrality, such as 'ADCY1','GABBR2' which suggests that these nodes are less important for maintaining the overall connectivity of the network.
 # Current Flow Betweeenness Centrality
@@ -291,6 +294,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Current Flow Betweenness Centrality')
 plt.show()
 ```
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/currentflowbetween.jpg))
 
 ## Results
 In this specific result, the nodes with the highest current flow betweenness centrality are HTR1A, HTR1B, GRM2, and HTR2A, which indicates that these nodes are particularly important for maintaining the connectivity and information flow in the network. These nodes may be potential targets for interventions to modulate the network's function or prevent the spread of information through the network.
@@ -325,7 +329,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Communicability Betweenness Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/communicability.jpg))
 ## Results
 The node 'HTR1A' has the highest score of 0.676, indicating that it is more important for communication between other nodes than any other node in the network. On the other hand, the node 'GABBR2' has a score of 0.119, which suggests that it is a relatively peripheral node in terms of communication flow in the network.
 # Load Centrality 
@@ -353,7 +357,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Load Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/load.jpg))
 ## Results
 The nodes "HTR1A" and "HTR1B" have the highest load centrality values of 0.086 and 0.073, respectively, suggesting that these nodes are critical for the network's connectivity. Other nodes with relatively high load centrality values include "GRM2," "GNAI3," "HTR2A," and "NPY," indicating that these nodes are also important in maintaining network connectivity.
 
@@ -387,7 +391,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Subgraph Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/subgraph.jpg))
 ## Results
 The nodes "HTR1A," "HTR2A," and "COMT" have the highest subgraph centrality values of 7753, 6855, and 6585, respectively, indicating that these nodes are the most important in terms of their participation in the subgraphs of the network. Other nodes with relatively high subgraph centrality values include "SLC6A4," "TPH1," "NPY," "HTR2C," and "TPH2," suggesting that these nodes are also important in participating in the subgraphs of the network.
 
@@ -429,7 +433,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Harmonic Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/harmonic.jpg))
 ## Results
 The nodes with the highest harmonic centrality values are HTR1A (17.5), COMT (16.0), and TPH1 (16.0), indicating that these nodes are more central and influential in the network. The nodes with the lowest harmonic centrality values are ADCY1 (10.0), GABBR2 (12.5), and HTR7 (12.3), indicating that these nodes are less central and influential in the network.
 # Second Order Centrality 
@@ -457,7 +461,7 @@ plt.axis('off')
 plt.title('Protein Interaction Graph with Second Order Centrality')
 plt.show()
 ```
-
+![Network](https://github.com/vanshika230/Interactome_Analysis/blob/main/Images/secondorder.jpg)
 ## Results
 The node with the highest second-order centrality is ADCY1 with a value of 73.88, which means that it can reach a lot of nodes indirectly through its neighbors. The next highest values are for HTR7 and GABBR2, which also have high values, indicating their indirect influence on the network. On the other hand, HTR1A and HTR2A have low second-order centrality values, indicating their limited indirect influence on the network.
 # Voterank 
