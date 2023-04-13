@@ -1,2 +1,2 @@
 # Interactome_Analysis
-I did this project in 2022 august for the college course extras under the subject Mathematical Foundations for Data Science III. I have to find and upload all the files from my old laptop to github and my university exams are on so its getting delayed. But will soon update all the work done in a day or two.
+The Protein-Protein Interaction Network Bipartite Centrality Analysis using NetworkX Notebook aims to analyze and visualize protein-protein interaction networks using bipartite centrality measures. 
