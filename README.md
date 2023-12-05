@@ -50,18 +50,18 @@ The web app should now be accessible in your web browser at http://localhost:850
 Read detailed results and conclusions specific to the selected centrality measure.
 
 # Directory Structure
-/protein_interaction_analysis
-    |-- src
-    |    |-- __init__.py
-    |    |-- app.py
-    |    |-- network_analysis.py
-    |    |-- data_processing.py
-    |
-    |-- tests
-    |    |-- test_network_analysis.py
-    |
-    |-- requirements.txt
-    |-- README.md
+                /protein_interaction_analysis
+                    |-- src
+                    |    |-- __init__.py
+                    |    |-- app.py
+                    |    |-- network_analysis.py
+                    |    |-- data_processing.py
+                    |
+                    |-- tests
+                    |    |-- test_network_analysis.py
+                    |
+                    |-- requirements.txt
+                    |-- README.md
 src/: Contains the main source code files.
 tests/: Houses unit tests for the project.
 requirements.txt: Lists project dependencies.
