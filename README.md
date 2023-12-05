@@ -10,6 +10,9 @@ NetworkX is a popular Python library for network analysis and visualization, off
 
 Further work can be extended on this dataset with finding minimum spanning trees, applying other centrality measures such as pagerank algorithm and Leidenalg. We can also use this example to learn isomorphism. The possibilities of analyzing interactomes with NetworkX are endless.
 
+# NOTES
+Please note that the ppin.md and jupyter notebook was created 8 months ago as the NetworkX Guides are created as Jupyter Markdown Files so this project is old. This project was deployed in strealit for the purpose of easy usage and for demonstrations purposes in the open source community.
+
 # Features
 Dynamic Centrality Analysis: Users can select from a variety of centrality measures, including Degree Centrality, Eigenvector Centrality, Closeness Centrality, Information Centrality, Betweenness Centrality, and more.
 
