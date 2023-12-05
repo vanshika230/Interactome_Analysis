@@ -62,16 +62,25 @@ Read detailed results and conclusions specific to the selected centrality measur
                     |
                     |-- requirements.txt
                     |-- README.md
+                    
 src/: Contains the main source code files.
+
 tests/: Houses unit tests for the project.
+
 requirements.txt: Lists project dependencies.
 
 # Dependencies
+
 NetworkX 2.7.3
+
 Requests 2.26.0
+
 Pandas 1.3.3
+
 NumPy 1.21.2
+
 Matplotlib 3.4.3
+
 Streamlit 1.14.0
 
 # Contributing
