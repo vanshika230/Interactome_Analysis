@@ -19,6 +19,11 @@ Dynamic Centrality Analysis: Users can select from a variety of centrality measu
 Graph Visualization: The results of the centrality analysis are visually represented through an interactive graph, providing an intuitive understanding of protein interactions and their significance.
 
 Customized Results and Conclusions: Detailed insights and conclusions are provided based on the selected centrality measure, offering users a deeper understanding of the network structure.
+# The Web App 
+![Front_Page1](https://github.com/vanshika230/Interactome_Analysis/assets/74042272/2685f0d0-5754-4838-ab79-a1731b081e0d)
+![Front_Page2](https://github.com/vanshika230/Interactome_Analysis/assets/74042272/d9072059-ba12-475e-aaf5-b8abf03377fe)
+![Results](https://github.com/vanshika230/Interactome_Analysis/assets/74042272/0dd836cb-111d-4688-9149-eca5c75acf3c)
+
 
 # Installation
         To run the Protein Interaction Analysis project locally, follow these steps:
