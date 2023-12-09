@@ -63,11 +63,19 @@ Read detailed results and conclusions specific to the selected centrality measur
                     |-- requirements.txt
                     |-- README.md
                     
-src/: Contains the main source code files.
+Here's a brief explanation of each file:
 
-tests/: Houses unit tests for the project.
+/protein_interaction_analysis/src/__init__.py: An empty file that makes the src directory a Python package.
 
-requirements.txt: Lists project dependencies.
+/protein_interaction_analysis/src/app.py: Contains the Streamlit web application code.
+
+/protein_interaction_analysis/src/network_analysis.py: Contains functions related to network analysis, including fetching data, creating a NetworkX graph, and calculating centrality measures.
+
+/protein_interaction_analysis/src/data_processing.py: Contains functions related to data processing, such as handling API responses and converting data into a pandas DataFrame.
+
+/protein_interaction_analysis/tests/test_network_analysis.py: Contains test cases for the functions defined in network_analysis.py.
+
+/protein_interaction_analysis/requirements.txt: A file containing the required Python packages and their versions.
 
 # Dependencies
 
