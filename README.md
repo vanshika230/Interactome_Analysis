@@ -99,8 +99,5 @@ Streamlit 1.14.0
 # Contributing
 If you would like to contribute to the project, please follow the guidelines outlined in CONTRIBUTING.md.
 
-# License
-This project is licensed under the MIT License.
-
 # Acknowledgments
 The project relies on open-source libraries and tools, including NetworkX, Streamlit, and others. See ACKNOWLEDGMENTS.md for details.
